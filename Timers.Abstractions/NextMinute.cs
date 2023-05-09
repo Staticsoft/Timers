@@ -1,9 +1,8 @@
 ﻿using System.Threading.Tasks;
 
-namespace Staticsoft.Timers.Abstractions
+namespace Staticsoft.Timers.Abstractions;
+
+public interface NextMinute
 {
-    public interface NextMinute
-    {
-        Task Wait();
-    }
+    Task Wait();
 }
